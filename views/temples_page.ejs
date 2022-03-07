@@ -1,0 +1,47 @@
+<%- include("partials/header"); -%>
+<link rel="stylesheet" href="css/webpage.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+
+<body>
+
+  <div class="temples-image">
+    <div class="temples-text">
+      <h1>Temples Package</h1>
+      <p>___________________</p>
+      <h2>Explore new pilgrimage areas</h2>
+      <!-- <button>cdHire me</button> -->
+    </div>
+  </div>
+
+  <section id="hills-content">
+    <h2>temple is a religious building that's meant for worshipping or praying. ... </h2>
+    <p>___________________________________________________________________________</p>
+    <h5>Top packages for the popular Pilgrimage areas of South India.</h5>
+
+    <div class="row">
+    <% items.forEach(function(item1) { %>
+    <div class="pricing-section col-lg-4 col-md-6">
+      <div class="card">
+        <img src="<%= item1.img %>" class="card-img-top" alt="Card image cap">
+        <div class="card-header">
+        </div>
+        <div class="card-body">
+              <h4>Tourist Place:</h4>
+              <br>
+              <h4 style="text-align:center;"><%= item1.tourist_place %></h4>
+              <p>____________________________________________</p>
+              <h6>Budget:<p style="text-align:right;"><span style="text-align:right"><%= item1.budget %></span></p></h6>
+              <h6>Days plan:<span style="text-align:right"><p style="padding-left:10px;"><%= item1.days_plan %></p></span></h6>
+              <h6>Room Charges:<span style="text-align:right"><p style="padding-left:10px;"><%= item1.room_charges %></p></span></h6>
+              <p style="text-align:center;"><button class="btn btn-sm btn-success" type="button">Book Now</button></p>
+        </div>
+      </div>
+    </div>
+    <% }) %>
+
+
+  </section>
+
+</body>

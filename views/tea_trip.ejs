@@ -1,0 +1,26 @@
+<%- include("partials/header"); -%>
+<body>
+<h1>ADD TOURIST SPOT</h1>
+  <!-- enctype="multipart/form-data" -->
+  <form class="" action="/tea_trip" method="post"  enctype="multipart/form-data">
+         <div class="form-group">
+           <label for="tourist_spot">tourist_spot</label>
+           <input type="text" class="form-control" name="tourist_spot" placeholder="Enter Here">
+
+           <label for="budget">budget</label>
+           <input type="number" class="form-control" name="budget">
+
+           <label for="days_plan">days_plan</label>
+           <input type="number" class="form-control" name="days_plan">
+
+           <label for="room_charges">room_charges</label>
+           <input type="number" class="form-control" name="room_charges">
+           <!-- <textarea class="form-control" name="desc"></textarea> -->
+           <!-- <input type="text" class="form-control" name="postname" placeholder="Enter Here"> -->
+           <label for="image">Upload Image</label>
+           <input type="file" id="image"
+                  name="image" value="" required>
+         </div>
+         <button type="submit" class="btn btn-primary">Publish</button>
+  </form>
+<%- include("partials/footer"); -%>

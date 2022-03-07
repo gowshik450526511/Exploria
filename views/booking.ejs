@@ -1,0 +1,41 @@
+<%- include("partials/header") -%>
+<link rel="stylesheet" href="/css/webpage.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href='https://fonts.googleapis.com/css?family=Calistoga' rel='stylesheet'>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css.map" rel="stylesheet">
+
+<body>
+    <div class="container">
+      <div class="jumbotron" style="padding-top:100px;">
+        <h3 style="text-align:center;">Your Bookings</h3>
+      </div>
+    </div>
+    <div class="row">
+    <% items.forEach(function(item1){ %>
+     <div class="pricing-section col-lg-4 col-md-6">
+       <div class="card">
+        <div class="card-header">
+        </div>
+        <div class="card-body">
+          <h4>Tourist Place:</h4>
+          <br>
+          <h4 style="text-align:center;" id="place"><%= item1.tour_package %></h4>
+          <p>____________________________________________</p>
+          <h6 class="budget">Budget:<span style="text-align:right;padding-left:200px;" id="budget"><%= item1.total_cost %></span></h6>
+          <br>
+          <h6>Start Date:<span style="text-align:right;padding-left:150px;"><%= item1.start_date.toLocaleDateString() %></span></h6>
+          <br>
+          <h6>End Date:<span style="text-align:right;padding-left:150px;"><%= item1.end_date.toLocaleDateString() %></span></h6>
+          <br>
+          <h6>Total Members:<span style="text-align:right;padding-left:150px;"><%= item1.no_of_members %></span></h6>
+          <br>
+          <p style="text-align:center;"><button class="btn btn-sm btn-danger" type="button" value="Click" style="color:white;"><a href="/cancel_booking" method="POST" class="btn btn-sm btn-danger">Cancel</a></button></p>
+       </div>
+      </div>
+   </div>
+  <% }) %>
+  </div>
+</body>

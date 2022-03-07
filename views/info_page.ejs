@@ -1,0 +1,64 @@
+<%- include("partials/header") -%>
+<link rel="stylesheet" href="/css/form.css">
+<body>
+  <div class="info">
+  <h1 style="color:white;">varunraj</h1>
+  <form action="/info_page" class="userForm" method="post"  enctype="multipart/form-data">
+    <div class="form-row">
+      <div class="form-group col-md-6">
+        <label for="tour_package" style="color:white;">Tour Package</label>
+        <input type="text" class="form-control" id="Name1" name="tour_package" value="<%= place %>" placeholder=<%= place %> readonly>
+      </div>
+      <div class="form-group col-md-6">
+        <label for="total_cost" style="color:white;">Cost Per Person</label>
+        <input type="number" class="form-control" id="Name1" name="total_cost" value="<%= cost %>" placeholder=<%= cost %> readonly>
+      </div>
+    </div>
+    <div class="form-row">
+      <div class="form-group col-md-6">
+        <label for="Name1" style="color:white;">First Name</label>
+        <input type="text" class="form-control" id="Name1" name="Name1" placeholder="Your first name">
+      </div>
+      <div class="form-group col-md-6">
+        <label for="Name2" style="color:white;">Second Name</label>
+        <input type="text" class="form-control" id="Name2" name="Name2" placeholder="Your second name">
+      </div>
+    </div>
+    <div class="form-row">
+      <div class="form-group col-md-6">
+        <label for="gmail" style="color:white;">Enter your Gmail</label>
+        <input type="text" class="form-control" id="gmail" name="gmail" value="<%= gmail %>" placeholder=<%= gmail %> > 
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="number" style="color:white;">Number of members</label>
+      <select class="form-control" id="number" name="number">
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+      </select>
+    </div>
+    <div class="form-row">
+      <div class="form-group col-md-6">
+        <label for="start" style="color:white;">Start date</label>
+        <input type="date" class="form-control" id="start" name="start">
+      </div>
+      <div class="form-group col-md-6">
+        <label for="end" style="color:white;">End date</label>
+        <input type="date" class="form-control" id="end" name="end">
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="phone_no" style="color:white;">Phone number</label>
+      <input type="text" class="form-control" name="phone_no">
+    </div>
+    <div class="form-group">
+      <label class="img_upload" style="color:white;">Id proof</label>
+      <input type="file" class="form-control-file" name="img_upload" style="color:white;"></input>
+    </div>
+    <p style="text-align:center"><button type="submit" class="btn btn-primary centerButton" style="color:white;">Submit</button></p>
+  </form>
+ </div>
+<script src="/index.js" charset="utf-8"></script>
+</body>
