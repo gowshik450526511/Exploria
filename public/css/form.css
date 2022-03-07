@@ -1,0 +1,71 @@
+/*
+
+body
+{
+  background-color: #F4EEED;
+  text-align: left;
+  margin:0;
+}
+h1
+{
+  font-size: 2em;
+  line-height: normal;
+}
+h2
+{
+  font-size: 1.5em;
+  margin-top: 5px;
+}
+.plane
+{
+    padding-left: 10px;
+}
+.oneline
+{
+  padding-left: 20px;
+  padding-right: 20px;
+  display: inline-block;
+  color: red;
+}
+.iconColor
+{
+  color: white;
+}
+.navbar-nav
+{
+  display: inline-block;
+}
+.navbar
+{
+  background-color: #04293A;
+  margin-bottom: 10px;
+}
+.navbar-brand
+{
+  color: #EDD2F3;
+}
+.centerButton
+{
+  position: relative;
+  left: 45%;
+} */
+
+body{
+  background-image:url("/images/info_image.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* margin-top:10px; */
+}
+.userForm
+{
+  padding-top:100px;
+  padding-left:50px;
+  padding-right:50px;
+}
+/* .formText
+{
+  font-family: monospace;
+  font-size:1em;
+  margin-bottom: 30px;
+} */

@@ -1,0 +1,92 @@
+.hills-image {
+  /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/mountain.jpg"); */
+  /* background-image:url("/images/hills.jpg"); */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* margin-top:10px; */
+  height: 400px;
+  opacity: 0.7;
+}
+
+.card img{
+
+  height: 300px;
+}
+
+.temples-image {
+  /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/mountain.jpg"); */
+  /* background-image:url("/images/tirupathi.jpg"); */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* margin-top:10px; */
+  height: 400px;
+   opacity: 0.7;
+}
+
+.beach-image {
+  /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/mountain.jpg"); */
+  background-image:url("/images/beach.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* margin-top:10px; */
+  height: 400px;
+   opacity: 0.7;
+}
+.tea-image {
+  /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/mountain.jpg"); */
+  background-image:url("/images/image3.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* margin-top:10px; */
+  height: 400px;
+   opacity: 0.7;
+}
+
+.card-body{
+  background-color:#9BEAEA;
+}
+
+.tea-text {
+  text-align:center;
+  padding-top:100px;
+  font-family:'Lobster', cursive;
+  color: white;
+}
+
+.hills-text {
+  text-align:center;
+  padding-top:100px;
+  font-family:'Lobster', cursive;
+  color: white;
+}
+
+.temples-text {
+  text-align:center;
+  padding-top:100px;
+  font-family:'Lobster', cursive;
+  color: black;
+  /* padding-left:30px; */
+}
+
+.beach-text {
+  text-align:center;
+  padding-top:100px;
+  font-family:'Lobster', cursive;
+  color: black;
+  padding-left:30px;
+}
+
+#hills-content{
+  padding-top:20px;
+  padding-left:20px;
+  /* font-family:'Lobster', cursive; */
+   font-family: 'lobster', cursive;
+}
+
+.pricing-section{
+  padding: 3% 2%;
+}

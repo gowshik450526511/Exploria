@@ -1,0 +1,162 @@
+/* .images_top{
+  margin-top:100px;
+} */
+.hero-image {
+  /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/mountain.jpg"); */
+  background-image:url("/goa.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* margin-top:10px; */
+  height: 400px;
+}
+
+button{
+  text-align:center;
+}
+
+.hero-text {
+  text-align:center;
+  padding-top:100px;
+  font-family:'Lobster', cursive;
+}
+
+.hills{
+  /* padding: 2% 15%;
+  text-align:center; */
+  background-color: #181717;
+  color: #fff;
+}
+
+.temples{
+  background-color: #181717;
+  color: #fff;
+}
+
+.tea{
+  background-color: #181717;
+  color: #fff;
+}
+
+
+.beach{
+  background-color: #181717;
+  color: #fff;
+}
+
+
+
+.place{
+  padding-top:20px;
+}
+
+.testimonial-image{
+  width:50%;
+  height:50%;
+  padding: 2% 3%;
+}
+
+
+
+#arrow{
+  color:black;
+}
+.carousel-item{
+  text-align:center;
+}
+
+.caption{
+  color:black;
+}
+
+.img1{
+  height:50%;
+  width:50%;
+}
+
+#bg{
+  background-color: #e6ffff;
+}
+
+.hills_part{
+  padding-left:10px;
+  padding-top:20px;
+}
+
+.temples_part{
+  padding-left:10px;
+  padding-top:20px;
+}
+
+.Tea_part{
+  padding-left:10px;
+  padding-top:20px;
+}
+
+.Beach_part{
+  padding-left:10px;
+  padding-top:20px;
+}
+
+
+
+.reg_page{
+  background:url(image3.jpg);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.home_page{
+  background:url(image1.jpg);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+  margin-top:50px;
+}
+.form-signin .checkbox {
+  font-weight: 400;
+}
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="text"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="text"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.form-signin input[type="email"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 50px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+#google_box{
+  box-sizing : border-box;
+}
